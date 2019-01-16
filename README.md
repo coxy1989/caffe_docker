@@ -8,7 +8,7 @@ This repository provides a recipe - in the from of instruction and Dockerfile fo
 - Verify your nvidia docker configuration: `sudo docker run --runtime=nvidia --rm nvidia/cuda nvidia-smi`
 - Build the docker image from the dockerfile included in this repo: `docker build -t caffe .`
 - Run it: `run -it --runtime=nvidia --shm-size=8g --rm caffe`
-- Verify all is well by running throuch [one of the caffe examples](http://caffe.berkeleyvision.org/gathered/examples/mnist.html).
+- Verify all is well by running through [one of the caffe examples](http://caffe.berkeleyvision.org/gathered/examples/mnist.html).
 
 
 
